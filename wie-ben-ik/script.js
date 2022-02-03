@@ -5,13 +5,25 @@ console.log('Mohamed oefening werkt');
 let h1Element = document .querySelector('.h1')
 
 console.log(h1Element);
-h1Element.style.backgroundColor = 'yellow' ;
+h1Element.style.backgroundColor = 'black' ;
 //
 
-let h1Element = document .querySelector('#Mohamed').style.textDecoration = "underline"
+let KlasseNaam = 'tweede-rij'
+let studenten = document.getElementsByClassName(KlasseNaam)
+console.log(studenten)
 
-console.log(h1Element);
-h1Element.style.backgroundColor = 'yellow' ;
+for(let element of studenten) {
+    console.log(element);
+    element.style.backgroundColor = 'yellow'
+
+}
+let mohamed = document.querySelector("#Mohamed");
+ mohamed.style.textDecoration = "underline";
+
+
+
+
+
 
 //.style.textDecoration = "underline";
 
