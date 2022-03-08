@@ -16,4 +16,3 @@ function objectPrinten(parameter) {
     console.log(parameter.eigenSchap + '' + parameter.soort + '' + parameter.derdeEigenSchap);
 } 
 
-objectPrinten(objectVoorbeeld1);
