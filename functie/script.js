@@ -9,10 +9,10 @@ let lijstobjecten = [voetballer1, voetballer2, voetballer3]
 console.log(lijstobjecten.length);
 
 for (let i = 0; i < lijstobjecten.length; i++) {
-    console.log(lijstobjecten[i]);
+    objectPrinten(lijstobjecten[i]);
 }
 
 function objectPrinten(parameter) {
-    console.log(parameter.eigenSchap + '' + parameter.soort + '' + parameter.derdeEigenSchap);
+    console.log(parameter.Naam + ' ' + parameter.leeftijd + '' + parameter.club);
 } 
 
