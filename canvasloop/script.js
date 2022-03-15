@@ -12,7 +12,7 @@ let ctx = document.getElementById('canvas').getContext('2d');
 
   
   function createCircle() {
-    let rgbaColor = makeRGBA(255, 0, 0, 0.5);
+    let rgbaColor = makeRGBA(random(255), random(255), random(255), random(1))
     ctx.beginPath();
     ctx.fillStyle = rgbaColor; // kleur aanmaken
     ctx.arc(random(WIDTH), random(HEIGHT), random(50), 0, 2 * Math.PI);
